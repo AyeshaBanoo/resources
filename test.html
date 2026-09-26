@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStudy - Study Resources</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #172554;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            color: #93c5fd;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+        }
+
+        .welcome {
+            background-color: white;
+            text-align: center;
+            padding: 35px;
+            margin-top: 25px;
+            border-radius: 10px;
+        }
+
+        .welcome h2 {
+            color: #1e3a8a;
+        }
+
+        .subjects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .card {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 3px 10px #ccc;
+        }
+
+        .card h3 {
+            color: #1e3a8a;
+        }
+
+        .card a {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        .resources {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        .resources h2 {
+            color: #1e3a8a;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #172554;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>TechStudy</h1>
+        <p>Simple Technical Study Resources for Students</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Welcome Section -->
+        <section class="welcome" id="home">
+            <h2>Welcome to TechStudy</h2>
+            <p>
+                Your simple study platform for learning important
+                Computer Science and technical subjects.
+            </p>
+        </section>
+
+        <!-- Subjects -->
+        <section id="subjects">
+            <h2 style="text-align:center; color:#1e3a8a;">
+                Technical Subjects
+            </h2>
+
+            <div class="subjects">
+
+                <div class="card">
+                    <h3>Data Structures</h3>
+                    <p>Learn arrays, stacks, queues, trees and algorithms.</p>
+                    <a href="#">Study</a>
+                </div>
+
+                <div class="card">
+                    <h3>DBMS</h3>
+                    <p>Learn databases, SQL, keys and normalization.</p>
+                    <a href="#">Study</a>
+                </div>
+
+                <div class="card">
+                    <h3>Operating Systems</h3>
+                    <p>Learn processes, scheduling, memory and deadlocks.</p>
+                    <a href="#">Study</a>
+                </div>
+
+                <div class="card">
+                    <h3>Computer Networks</h3>
+                    <p>Learn networking, protocols, IP and OSI model.</p>
+                    <a href="#">Study</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Resources -->
+        <section class="resources" id="resources">
+
+            <h2>Study Resources</h2>
+
+            <ul>
+                <li>📖 Subject Notes</li>
+                <li>📝 Important Questions</li>
+                <li>💻 Programming Examples</li>
+                <li>📚 Previous Year Questions</li>
+                <li>⚡ Quick Revision Notes</li>
+            </ul>
+
+        </section>
+
+        <!-- Contact -->
+        <section class="resources" id="contact">
+
+            <h2>Contact</h2>
+
+            <p>
+                Have suggestions or want to contribute study material?
+            </p>
+
+            <p>
+                Email: techstudy@example.com
+            </p>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2026 TechStudy | Student Study Resources</p>
+    </footer>
+
+</body>
+</html>
